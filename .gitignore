@@ -1,0 +1,12 @@
+# .gitignore
+node_modules/     # Remove this folder (auto-installed by npm)
+dist/             # Render will rebuild it during deployment
+.env              # Contains secrets (e.g., API keys, database URLs)
+.DS_Store         # macOS junk file
+.vscode/          # IDE settings (optional)
+logs/             # Remove if you have log files
+*.log             # Log files
+
+# Optional: Ignore local config files
+.env.local
+.env.development
